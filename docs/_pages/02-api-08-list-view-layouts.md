@@ -17,8 +17,6 @@ public class MyCustomListViewLayout : FluidityListViewLayout
 {
     public override string Name => "My Custom List";
 
-    public override string Alias => "mycustomlist";
-
     public override string Icon => "icon-list";
 
     public override string View => "/app_plugins/myplugin/views/mycustomlist.html";
@@ -28,7 +26,6 @@ public class MyCustomListViewLayout : FluidityListViewLayout
 The required configuration options are:
 
 * **Name:** The name of the layout.
-* **Alias:** A unique alias for the bulk action.
 * **Icon:** An icon to display in the list view layouts dropdown.
 * **View:** The path of the angular view to load by the list view.
 
